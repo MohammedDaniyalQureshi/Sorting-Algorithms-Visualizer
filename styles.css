@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+.green-gold{
+  color:gold;
+  background-color:green;
+  padding:10px;
+}
+
+button{
+  padding:2px;
+  margin:2px;
+}
+
+.bar{
+  /* display:inline-block; */
+  background-color:#CF9FFF;
+  margin:0 2px;
+  width:100%;
+  height:100px;
+}
+.small-bar{
+  display:inline-block;
+  background-color:#CF9FFF;
+  margin:0 2px;
+  width: 8px ;
+}
+
+.bar-container{
+  display:inline-flex;
+  margin: 2px 2px;
+  gap:2px;
+
+  width:20px;
+  flex-direction: column;
+  color:#CF9FFF;
+}
+
+.swapping{
+  background-color: red;
+}
+.value-swapping{
+  color: red;
+}
+
+.value{
+  font-size: small;
+  text-align: center;
+}
+

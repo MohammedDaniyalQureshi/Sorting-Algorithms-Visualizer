@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms Visualizer</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="app.js" defer></script>
+
+    <!-- Helper -->
+    <script src="helper.js" defer></script>
+
+    <!-- Algorithms -->
+    <script src="algorithms/insertionSort.js" defer></script>
+    <script src="algorithms/bubbleSort.js" defer></script>
+    <script src="algorithms/selectionSort.js" defer></script>
+    <script src="algorithms/shellSort.js" defer></script>
+    <script src="algorithms/mergeSort.js" defer></script>
+    <script src="algorithms/quickSort.js" defer></script>
+
+</head>
+<body>
+    <h1 class="green-gold">
+      Comparison Sorting Algorithms
+    </h1>
+    
+    <button onClick=randomizeArray() id="random">Randomize Array</button>
+    <button onClick="insertionSort()">Insertion Sort</button>
+    <button onClick="selectionSort()">Selection Sort</button>
+    <button onClick=bubbleSort()>Bubble Sort</button>
+    <button onClick="callQuickSort()">Quick Sort</button>
+    <button onClick="callMergeSort()">Merge Sort</button>
+    <button onClick="shellSort()">Shell Sort</button>
+    <button onClick="changeSize()" id="size">Change Size</button>
+
+        <div id="bars-container">
+
+          <div class="bar-container">
+            <div class="bar"></div>
+            <div class="value">888</div>
+          </div>
+
+        </div>
+
+
+      
+  </body>
+</html>
